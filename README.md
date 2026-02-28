@@ -109,29 +109,6 @@ Mobile behavior includes:
 
 ---
 
-## Deployment (Cloudflare Pages)
-
-### 1. Upload to GitHub
-
-Push the repository containing:
-
-
-index.html
-README.md
-
-
-### 2. Connect to Cloudflare Pages
-
-- Create new project
-- Connect GitHub repository
-- Framework preset: **None**
-- Build command: *(leave empty)*
-- Output directory: `/`
-
-Since this is a static file project, no build step is required.
-
----
-
 ## Security Considerations
 
 - API keys are entered client-side.
@@ -191,4 +168,4 @@ It is intended as a foundation for:
 
 ## License
 
-Specify your preferred license here (e.g., MIT).
+MIT
