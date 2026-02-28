@@ -112,13 +112,6 @@ Mobile behavior includes:
 ## Security Considerations
 
 - API keys are entered client-side.
-- No server proxy is included.
-- Sensitive keys should be restricted at provider level (CORS, domain lock, or token scoping).
-
-For production environments requiring secure key handling, implement:
-- A Cloudflare Worker proxy
-- Rate limiting
-- Server-side token validation
 
 ---
 
