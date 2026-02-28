@@ -114,3 +114,81 @@ Mobile behavior includes:
 ### 1. Upload to GitHub
 
 Push the repository containing:
+
+
+index.html
+README.md
+
+
+### 2. Connect to Cloudflare Pages
+
+- Create new project
+- Connect GitHub repository
+- Framework preset: **None**
+- Build command: *(leave empty)*
+- Output directory: `/`
+
+Since this is a static file project, no build step is required.
+
+---
+
+## Security Considerations
+
+- API keys are entered client-side.
+- No server proxy is included.
+- Sensitive keys should be restricted at provider level (CORS, domain lock, or token scoping).
+
+For production environments requiring secure key handling, implement:
+- A Cloudflare Worker proxy
+- Rate limiting
+- Server-side token validation
+
+---
+
+## Performance Profile
+
+- No runtime framework overhead
+- No virtual DOM
+- Minimal external dependencies
+- Lightweight CSS architecture
+- Fast first paint under static hosting
+
+Optimized for:
+- Low latency
+- Edge deployment
+- Client-side interaction responsiveness
+
+---
+
+## External Dependencies
+
+| Library | Purpose |
+|---------|----------|
+| marked.js | Markdown rendering |
+
+All other logic is native JavaScript.
+
+---
+
+## Project Philosophy
+
+This project prioritizes:
+
+- Structural clarity
+- Design coherence
+- Static deployability
+- Framework independence
+- Maintainability within a single file
+
+It is intended as a foundation for:
+
+- AI studio dashboards
+- Personal AI tooling
+- Experimental multi-modal interfaces
+- Edge-deployed AI clients
+
+---
+
+## License
+
+Specify your preferred license here (e.g., MIT).
